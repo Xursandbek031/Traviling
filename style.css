@@ -104,3 +104,57 @@ nav button{
     color: #42A7C3;
     font-size: 17px;
 }
+
+/* choose */
+#choose{
+    padding: 40px 0px;
+}
+.choose{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+}
+.right-text>h2{
+    font-size: 36px;
+    color: #121212;
+}
+.right-text>p{
+    font-size: 20px;
+    color: #121212;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+.frame21{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.frame21:hover{
+    box-shadow: 0px 16px 24px 0px rgba(96,97,112,12%);
+}
+.frame22 h4{
+    color: #121212;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.frame22 p{
+    color: #636363;
+    font-size: 16px;
+}
+.frame23{
+    padding: 0px 25px;
+}
+.frame23 a{
+    color: #121212;
+    font-weight: 700;
+    font-size: 20px;
+}
+footer img{
+    width: 100%;
+}
